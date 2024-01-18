@@ -33,5 +33,7 @@ I will break the functionality of mystery down into ordered steps:
             the value of "foo."
         b.) Otherwise, mystery will return the value of the 0th (or first) element of "a."
 3.) Mystery will repeat steps 1 and 2 until the length of "a" is precisely one, or it only has a 0th element.
-        a.) In doing so, the ultimate output value of mystery will always be the initial element of "a" that holds
+        a.) In doing so, the ultimate output value of mystery will always be the element of "a" that holds
             the greatest value (value either being a letter/symbol's ASCII code, or a numerical value).
+
+In summary, mystery will always return the element of "a" that has the **greatest** value.
